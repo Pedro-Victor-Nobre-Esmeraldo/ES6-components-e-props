@@ -1,0 +1,51 @@
+.user-card {
+    width: 302px;
+    height: 410px;
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #131E30;
+}
+
+.user-card h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.user-card span {
+    font-size: 18px;
+
+}
+
+.container-follow {
+    margin-top: 72px;
+    color: black;
+    font-size: 18px;
+}
+
+.container-follow span:first-child {
+    margin: 4px;
+
+}
+
+.avatar {
+    height: 142px;
+    width: 142px;
+    border: 10px solid #ECF3FC;
+    border-radius: 50%;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.username {
+    margin-bottom: 72px;
+}
